@@ -1,0 +1,109 @@
+.interviewer-container {
+  padding: 20px;
+}
+
+.dashboard-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.controls-section {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+}
+
+.stat-card h3 {
+  font-size: 36px;
+  margin: 0;
+  color: white;
+  font-weight: 700;
+}
+
+.stat-card p {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.candidates-table {
+  margin-top: 24px;
+}
+
+.candidates-table .ant-table-thead>tr>th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+.candidate-modal .modal-content {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.info-section,
+.summary-section,
+.qa-section {
+  margin-bottom: 16px;
+}
+
+.info-section p,
+.summary-section p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.info-section strong,
+.summary-section strong,
+.qa-content strong {
+  color: #333;
+}
+
+.qa-item {
+  background: #fafafa;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.qa-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.question-number {
+  font-weight: 700;
+  font-size: 16px;
+  color: #667eea;
+}
+
+.qa-content p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.qa-content p:first-child {
+  margin-top: 0;
+}
+
+.qa-content p:last-child {
+  margin-bottom: 0;
+  padding-top: 8px;
+  border-top: 1px solid #e8e8e8;
+  color: #52c41a;
+}

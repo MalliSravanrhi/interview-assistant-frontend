@@ -1,0 +1,44 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.app-header {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #667eea;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.main-tabs {
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.main-tabs .ant-tabs-nav {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.main-tabs .ant-tabs-tab {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-tabs .ant-tabs-content {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  min-height: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

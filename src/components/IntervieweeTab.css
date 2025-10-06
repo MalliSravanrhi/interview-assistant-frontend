@@ -1,0 +1,166 @@
+.interviewee-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.upload-card,
+.info-card,
+.question-card,
+.completion-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.upload-card {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.interview-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.interview-header h2 {
+  color: #667eea;
+  margin-bottom: 16px;
+}
+
+.question-card {
+  margin-top: 20px;
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.difficulty-badge {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.difficulty-badge.easy {
+  background: #52c41a;
+  color: white;
+}
+
+.difficulty-badge.medium {
+  background: #faad14;
+  color: white;
+}
+
+.difficulty-badge.hard {
+  background: #f5222d;
+  color: white;
+}
+
+.timer {
+  font-size: 18px;
+  font-weight: 600;
+  color: #52c41a;
+}
+
+.timer.warning {
+  color: #f5222d;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.question-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.answer-input {
+  font-size: 16px;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 18px;
+  color: #667eea;
+  z-index: 1000;
+}
+
+.completion-card {
+  text-align: center;
+  padding: 40px;
+}
+
+.completion-content h2 {
+  color: #52c41a;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.completion-content h3 {
+  color: #666;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.score-display {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 24px 0;
+}
+
+.score-display h1 {
+  font-size: 48px;
+  margin: 0;
+  color: white;
+}
+
+.score-display p {
+  margin: 8px 0 0 0;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.summary-section {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 24px 0;
+  text-align: left;
+}
+
+.summary-section h4 {
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.summary-section p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
