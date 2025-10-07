@@ -61,7 +61,7 @@ const IntervieweeTab = () => {
 
   const testConnection = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/health');
+      const response = await fetch('https://interview-assistant-backend-k119.onrender.com');
       const data = await response.json();
       console.log('Backend connected:', data);
     } catch (error) {
